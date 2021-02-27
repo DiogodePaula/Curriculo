@@ -1,3 +1,6 @@
+body {
+  /* background: linear-gradient(to right, #68a063, #59f153); */
+}
 .jumbotron {
   background-image: url(../img/codigo.jpeg);
   background-size: cover;
@@ -9,9 +12,15 @@
   justify-content: flex-end;
   color: chartreuse;
 }
+.about-box {
+  padding-top: 20px;
+}
 .about {
   border: solid 1px black;
   padding: 10px;
+}
+.card-perfil-box {
+  padding-top: 20px;
 }
 .card-perfil {
   display: flex;
@@ -32,4 +41,34 @@
   height: 200px;
   border-radius: 50% !important;
   border: solid 2px black;
+}
+.card-skill-box {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.card-skill {
+  border: solid 1px black;
+}
+.card-formation-box {
+  padding-top: 20px;
+}
+.card-formation {
+  border: solid 1px black;
+  padding: 10px;
+}
+.card-experience-box {
+  padding-top: 20px;
+}
+.card-experience {
+  border: solid 1px black;
+  padding: 10px;
+}
+@media (max-width: 1200px) {
+  .jumbotron {
+    height: 250px;
+  }
+  .card-perfil {
+    flex-direction: column;
+  }
 }
