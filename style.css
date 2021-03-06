@@ -30,7 +30,7 @@ body {
   height: 100%;
   background-image: url(../img/checkerboard-cross.png);
   border: solid 1px black;
-  padding: 10px;
+  padding: 38px 10px;
 }
 .img-box {
   margin-bottom: 10px;
@@ -63,6 +63,28 @@ body {
 .card-experience {
   border: solid 1px black;
   padding: 10px;
+}
+.card-redes-sociais-box {
+  padding-top: 20px;
+}
+.card-redes-sociais {
+  border: solid 1px black;
+  padding: 10px;
+}
+.redes-socias-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 35px;
+}
+.card-img-top3 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.card-img-top3:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
 }
 @media (max-width: 1200px) {
   .jumbotron {
